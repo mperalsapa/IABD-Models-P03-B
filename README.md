@@ -1,0 +1,2 @@
+# Exemples amb gradio
+Aquest repositori consta de tres exemples fent servir la llibreria de Python **Gradio**, la qual permet la ràpida creació de interfícies web per interactuar amb models d'intel·ligéncia artificial.
