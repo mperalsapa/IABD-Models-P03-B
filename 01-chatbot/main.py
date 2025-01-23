@@ -5,7 +5,6 @@ import time
 with gr.Blocks() as demo:
     chatbot = gr.Chatbot(type="messages")
     msg = gr.Textbox()
-    clear = gr.Button("Clear")
 
     def user(user_message, history: list):
         return "", history + [{"role": "user", "content": user_message}]
